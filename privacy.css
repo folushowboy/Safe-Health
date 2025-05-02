@@ -26,7 +26,7 @@ header {
     padding: 20px 120px;
     position: sticky;
     top: 0;
-    background: white;
+    background-image: linear-gradient(#E0F8F1, #E0F8F1);
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
