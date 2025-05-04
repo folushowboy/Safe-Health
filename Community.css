@@ -320,10 +320,11 @@ img:hover {
     justify-content: space-between;
 }
 
-.image-content {
-    max-width: 100%;
+.campaign-img img {
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
 }
-
 
 .welbeing-container {
     display: flex;
@@ -596,6 +597,8 @@ footer ul li a:hover {
 
     .image-contents {
         flex-direction: column;
+        /* max-width: 200px; */
+        width: 100%;
     }
 
     .charter-image-content img {
