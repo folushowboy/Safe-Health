@@ -159,10 +159,12 @@ p {
 .hero-image img:hover {
     transform: scale(0.95);
 }
-
+.services-container{
+    margin: 70px 0;
+}
 .services-text {
     display: flex;
-    /* text-align: center; */
+    text-align: center;
     flex-direction: column;
     align-items: center;
     margin: 50px 0;
@@ -412,4 +414,19 @@ footer ul li a:hover {
         margin: 0 auto;
     }
 
+}
+
+
+
+
+
+
+/* MY CODE: AYO */
+
+.bg-col {
+    background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF, #cc9cca);
+}
+
+.bg-white {
+    background-color: white;
 }

@@ -199,7 +199,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 160px 0;
+    margin: 100px 0;
     width: 100%;
     gap: 60px;
 }
@@ -497,4 +497,19 @@ footer ul li a:hover {
         padding: 20px 30px;
         margin: 0 auto;
     }
+}
+
+
+
+
+
+
+/* MY CODE: AYO */
+
+.bg-col {
+    background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF, #cc9cca);
+}
+
+.bg-white {
+    background-color: white;
 }

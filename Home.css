@@ -8,7 +8,6 @@
 }
 
 body {
-    background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF, #cc9cca);
     color: #0F172A;
 }
 
@@ -93,6 +92,9 @@ ul li:hover {
 }
 
 
+
+
+
 .hero {
     display: flex;
     align-items: center;
@@ -146,8 +148,7 @@ p {
     text-decoration: none;
 }
 
-.hero-image img {
-    /* width: 500px; */
+/* .hero-image img {
     width: 100%;
     border-radius: 12px;
     height: 500px;
@@ -158,7 +159,7 @@ p {
 
 .hero-image img:hover {
     transform: scale(0.95);
-}
+} */
 
 
 /* FreightFlow-section */
@@ -175,7 +176,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 160px 0;
+    margin: 100px 0;
     width: 100%;
     gap: 60px;
 }
@@ -244,7 +245,9 @@ h2 {
 img:hover {
     transform: scale(0.95);
 }
-
+.services-container{
+    margin: 100px 0;
+}
 .services-text {
     display: flex;
     text-align: center;
@@ -327,7 +330,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px 120px;
     /* margin: 0 auto;
     padding: 20px 150px; */
@@ -585,4 +588,17 @@ footer ul li a:hover {
         padding: 20px 30px;
         margin: 0 auto;
     }
+}
+
+
+
+
+/* MY CODE: AYO */
+
+.bg-col {
+    background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF, #cc9cca);
+}
+
+.bg-white {
+    background-color: white;
 }

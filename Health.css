@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF, #cc9cca);
+    /* background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF, #cc9cca); */
     color: #0F172A;
 }
 
@@ -172,7 +172,9 @@ p {
     margin-top: 20px;
     align-self: flex-start;
 }
-
+.services-container{
+    margin: 70px 0;
+}
 .services-text {
     display: flex;
     text-align: center;
@@ -517,4 +519,18 @@ footer ul li a:hover {
         padding: 20px 30px;
         margin: 0 auto;
     }
+}
+
+
+
+
+
+/* MY CODE: AYO */
+
+.bg-col {
+    background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF, #cc9cca);
+}
+
+.bg-white {
+    background-color: white;
 }
