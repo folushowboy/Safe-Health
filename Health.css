@@ -265,6 +265,20 @@ p {
     color: #555;
 }
 
+.charter-image-content {
+    width: 45%;
+
+}
+
+.charter-image-content img {
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(0.95);
+}
 footer {
     display: flex;
     justify-content: space-between;
