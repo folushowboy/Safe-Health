@@ -73,6 +73,7 @@ ul li:hover {
     transform: scale(1.1);
     transition: 0.3s;
     background-color: #974F94;
+    color: white;
 }
 
 /* Hamburger Menu */
@@ -232,7 +233,7 @@ h2 {
 }
 
 .charter-image-content {
-    width: 50%;
+    width: 45%;
 
 }
 
@@ -329,14 +330,18 @@ img:hover {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     margin: 50px auto;
     padding: 20px 120px;
     /* margin: 0 auto;
     padding: 20px 150px; */
     /* background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF); */
 }
-
+.footer-column{
+    /* position: relative;
+    top: 140px; */
+    margin-top: 140px;
+}
 footer ul {
     list-style: none;
     /* align-items: center;

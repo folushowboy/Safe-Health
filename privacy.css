@@ -139,7 +139,7 @@ p {
 
 .btn-1 {
     background-color: #974F94;
-    color: black;
+    color: white;
     font-size: 18px;
     padding: 12px 24px;
     border-radius: 6px;
@@ -193,14 +193,18 @@ p {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     margin: 0 auto;
     padding: 20px 120px;
     /* margin: 0 auto;
     padding: 20px 150px; */
     /* background-image: linear-gradient(#E0F8F1, #E0F8F1, #C9FFEF); */
 }
-
+.footer-column{
+    /* position: relative;
+    top: 140px; */
+    margin-top: 140px;
+}
 footer ul {
     list-style: none;
     /* align-items: center;
