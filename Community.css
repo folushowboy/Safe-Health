@@ -175,9 +175,13 @@ p {
     border-radius: 10px;
     text-align: center;
 }
+.symptoms-img{
+    padding: 10px 0;
+}
 .symptoms-img img{
     background: #C9FFEF;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 7px ;
 }
 .profile-button {
     display: inline-flex;
